@@ -1,0 +1,37 @@
+input,button {text-align: top; padding: 5px 10px 5px 10px; margin: 2px; border: 1; background-color: #1e1ebe; color: #ffffff
+}
+
+body {font-family: sans-serif; color: #FFFFFF
+}
+	
+h2.page_heading {text-align: center; color: blue
+}
+	
+table {border-color: #7f8781; border-style: solid
+}
+	
+a	{cursor: pointer
+}
+
+.btn {cursor: pointer
+}
+
+.text {cursor: text
+}
+
+div.area {border-width: 1px; border-style: solid; border-color: #7f8781; padding: 2px 2px 2px 2px; cursor: not-allowed; margin: 10px 500px 2px 500px
+}
+
+img.test {animation: pulse 1s infinite; border-radius: 50%
+}
+
+@keyframes pulse {
+	from {box-shadow: 0 0 0 0 rgba(255, 122, 0.3)
+	}
+	to {box-shadow: 0 0 0 150px rgba(255, 122, 0, 0)
+	}
+}
+
+/*blockquote.ig_blockquote {background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; 
+				max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);
+}*/

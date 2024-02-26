@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	</link>
+		
+	<script>
+		function MyFunction() {
+		window.alert('CLICK OK TO SHARE YOUR PASSWORD.')
+		}
+		function changeBodyBg(color){
+        document.body.style.background = color;
+		}
+		function changeTextColor(tcolor){
+		document.getElementById("tcolor").style.color = tcolor;
+		}
+		function F2(){
+		document.getElementById("textbox").value = "";
+		}
+	</script>
+	<title>Trial Page</title>
+</head>
+<body id="tcolor" bgcolor="#141414">
+<font id="tcolor">
+<div>
+	<b><u><h2 id="mainHeading" class="page_heading">My First JavaScript</h2></u></b>
+</div>
+<div id="all_content">
+<div>
+	<table height="100%" width="200px" align="right" border="0">
+		<tbody>
+			<tr>
+				<td rowspan="2" align="center" style="vertical-align: top"><h3>Theme:</h3>
+				<td align="center"><input type="radio" name="theme" value="light" onclick="changeBodyBg('#FFFFFF'); changeTextColor('#141414')"></input>
+				<td align ="center">Light
+			</tr>
+			<tr>
+				<td align="center"><input type="radio" name="theme" value="dark" checked onclick="changeBodyBg('#141414'); changeTextColor('#FFFFFF')"></input>
+				<td align="center">Dark
+			</tr>
+		</tbody>
+	</table>
+</div>
+
+
+<div>
+	<div>
+		<p>&quotAlert&quot Function</p>
+	</div>
+	<div>
+		<button class="btn" type="button" onclick="MyFunction()">Next</button>
+	</div>
+	<div>
+		<div>
+			<p>A paragraph</p>
+		</div>
+		<div>
+			<a href ="https://www.google.com/" target="_blank"><button type="button">New Tab</button></a>
+		</div>	
+			<br><br>
+		<div>	
+			<button value="SHARE" onclick="MyFunction(); document.getElementById('all_content').style.display = 'none' ; document.getElementById('mainHeading').innerHTML = 'Thank You'">Click to share password</button>
+		</div><br><br>
+		<button value="Print" onclick="window.print()">Print</button>
+	</div>
+</div>
+<center>
+<input id="textbox" class="text" type="text"></input>
+
+<input class="btn" type="button" value="Clear" onclick="F2()"></input>
+<br>
+<div class="area">
+	<div style="padding: 2px 5px 250px 5px">
+		<p style="padding: none; margin: 1px">Area creation using div tag</p>
+	</div>
+</div>
+<br><br>
+<div>
+<iframe width="727" height="409" src="https://www.youtube.com/embed/jqp0lqrfQwQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<br><br>
+
+<br><br><br><br><br>
+<div>
+<iframe width="500" height="500" src="https://www.instagram.com/p/B-XABHKHrSM/embed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<br><br><br><br><br><br><br><br>
+<img class="test" src="test.png" alt="" />
+<br><br><br><br><br><br><br><br>
+</center>
+</font>
+
+</body>
+</html>
+
+
